@@ -1,0 +1,11 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  align-items: center;
+  .icon {
+    width: 260px;
+    height: 260px;
+  }
+}

@@ -1,3 +1,7 @@
 # house_work
 
-react +taro + ts
+react +taro + hooks + ts + pnpm
+
+pnpm dev:weapp
+
+

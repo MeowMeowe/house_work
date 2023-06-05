@@ -1,24 +1,17 @@
-import { Component, PropsWithChildren } from 'react'
-import { View, Text } from '@tarojs/components'
-import './index.scss'
+import { View, Text, Image } from "@tarojs/components";
+import { useState } from "react";
+import "./index.scss";
 
-export default class Index extends Component<PropsWithChildren> {
+const Index = () => {
+  const [title] = useState("Love You!!!");
 
-  componentWillMount () { }
+  return (
+    <View className="home">
+      <Text> {title}</Text>
+      <View>hahahahah11</View>
+      <Image className="icon" src={require("../../assets/images/heart.webp")} />
+    </View>
+  );
+};
 
-  componentDidMount () { }
-
-  componentWillUnmount () { }
-
-  componentDidShow () { }
-
-  componentDidHide () { }
-
-  render () {
-    return (
-      <View className='index'>
-        <Text>Hello world!</Text>
-      </View>
-    )
-  }
-}
+export default Index;
