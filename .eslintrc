@@ -5,8 +5,8 @@
   "rules": {
     // "@typescript-eslint/no-unused-vars": ["error", { "varsIgnorePattern": "Taro" }],
     "no-unused-vars": ["error", { "varsIgnorePattern": "Taro" }],
-    "jsx-quotes": ["error", "prefer-double"],
-    "quotes": [1, "single"],
+    // "jsx-quotes": ["error", "prefer-double"],
+    // "quotes": [1, "single"],
     "class-methods-use-this": "off",
     "no-unused-expressions": "off",
     "linebreak-style": ["error", "unix"],
@@ -51,7 +51,7 @@
         "tabWidth": 2,
         "useTabs": false,
         "semi": true,
-        "singleQuote": true,
+        "singleQuote": false,
         "quoteProps": "as-needed",
         "bracketSpacing": true,
         "trailingComma": "all",
@@ -62,7 +62,7 @@
         "requirePragma": false,
         "proseWrap": "never",
         "htmlWhitespaceSensitivity": "strict",
-        "endOfLine": "lf"
+        "endOfLine": "none"
       }
     ]
   },
